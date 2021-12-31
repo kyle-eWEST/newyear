@@ -1,0 +1,100 @@
+body{
+	background-image: url('flower.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.container{
+	background:rgba(255,255,255,0.5);
+	padding: 20px 0px;
+}
+
+#input-div{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#input-div #input{
+	padding:10px 20px;
+	width:70%;
+	height: 150px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-family: arial;
+}
+
+#button-div{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#button-div button{
+	letter-spacing: 3px;
+	padding:15px 40px;
+	border:none;
+	border-radius:10px;
+	color:white;
+	background: red;
+}
+
+.welcome-div{
+	padding-top:20px;
+}
+
+.welcome-div p{
+	width:60%;
+	margin:auto;
+	font-weight: bold;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+
+.welcome-div > div{
+	width:60%;
+	margin:auto;
+	margin-top: 10px;
+	text-align: end;
+}
+
+.welcome-div > div #read-more{
+	border:none;
+	color:white;
+	background: black;
+}
+
+.welcome-div #last-p{
+	margin:20px auto;
+	color:blue;
+	font-size: 15px;
+	font-weight: normal;
+	border-left:4px solid red;
+	padding-left: 10px;
+}
+
+footer{
+	background-color:black; 
+	color:white;
+	padding:50px 0px;
+}
+
+footer p{
+	width:60%;
+	margin:auto;
+	padding:0px 10px;
+	text-align: center;
+}
+
+footer #span1{
+	font-weight: bold;
+	letter-spacing: 1px;
+	color:red;
+}
+
+footer #span2{
+	letter-spacing: 2px;
+	color:blue;
+	padding:0px 10px;
+	margin-left: 10px;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
