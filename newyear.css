@@ -1,0 +1,152 @@
+body{
+	background-image: url('flower.gif');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.container{
+	background:rgba(255,255,255,0.5);
+	padding-top: 20px;
+}
+
+#input-div{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#input-div #input{
+	font-size: 14px;
+	padding:10px 20px;
+	width:70%;
+	height: 150px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-family: arial;
+}
+
+#button-div{
+	text-align: center;
+	margin: 20px 0px;
+}
+
+#button-div button{
+	letter-spacing: 3px;
+	padding:15px 40px;
+	border:none;
+	border-radius:10px;
+	color:white;
+	background: red;
+}
+
+#welcome1{
+	display:none;
+	margin-bottom: 20px;
+}
+
+#welcome1 > div{
+	position: relative;
+}
+
+#welcome1 > div #icon-p{
+	display: inline-block;
+	width:70px;
+	position: relative;
+	position: absolute;
+	right: 150px;
+}
+
+#welcome1 .fa{
+	font-size: 27px;
+	position: absolute;
+ 	animation: myfa 1.5s infinite;
+ 	animation-delay:1s;
+  	animation-direction: alternate;
+}
+
+@keyframes myfa{
+	from{top:0; left:100%;}
+	to{top:0; left:0px;}
+}
+
+#welcome2{
+	display:none;
+}
+
+.welcome-div{
+	padding-top:20px;
+}
+
+.welcome-div #read-more{
+	padding:5px 10px;
+}
+
+.welcome-div #input-h3{
+	width:60%;
+	margin:auto;
+	font-weight: bold;
+	color:blue;
+}
+
+.welcome-div p{
+	width:60%;
+	margin:auto;
+	font-weight: bold;
+	font-size: 23px;
+	letter-spacing: 1px;
+}
+
+.welcome-div > div{
+	width:60%;
+	margin:auto;
+	margin-top: 10px;
+	text-align: end;
+}
+
+.welcome-div > div #read-more{
+	border:none;
+	color:white;
+	background: black;
+}
+
+#last-div{
+	margin-bottom: 20px;
+}
+
+.welcome-div #last-p{
+	width:160px;
+	margin-left: 0px;
+	background: blue;
+	color:white;
+	font-size: 15px;
+	font-weight: bold;
+	border-left:4px solid red;
+	padding: 5px 10px;
+}
+
+footer{
+	background-color:black; 
+	color:white;
+	padding:50px 0px;
+}
+
+footer p{
+	width:60%;
+	margin:auto;
+	padding:0px 10px;
+	text-align: center;
+}
+
+footer #span1{
+	font-weight: bold;
+	letter-spacing: 1px;
+	color:red;
+}
+
+footer #span2{
+	letter-spacing: 2px;
+	color:blue;
+	padding:0px 10px;
+	margin-left: 10px;
+	border-left: 1px solid red;
+	border-right: 1px solid red;
+}
